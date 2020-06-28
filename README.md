@@ -1,2 +1,7 @@
 # TechBlog
- 个人技术文档
+## About ME
+Documentary photographer and Programmer
+
+### My Notes
+#### LEETCODE
+* [Reconstruct Itinerary](blog/leetcode/Reconstruct_Itinerary.md)
