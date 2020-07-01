@@ -9,6 +9,8 @@ I'm a Documentary photographer and Computer nerd.
 * [Perfect Squares](blog/leetcode/Perfect_Squares.md)
 * [Two Sum](blog/leetcode/Two_Sum.md)
 * [Unique Paths](blog/leetcode/Unique_Paths.md)
+* [Word Search II](blog/leetcode/Word_Search_II.md)
+* [Arranging Coins](blog/leetcode/Arranging_Coins.md)
 
 #### Database
 ##### Postgresql
