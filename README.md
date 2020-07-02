@@ -11,7 +11,7 @@ I'm a Documentary photographer and Computer nerd.
 * [Unique Paths](blog/leetcode/Unique_Paths.md)
 * [Word Search II](blog/leetcode/Word_Search_II.md)
 * [Arranging Coins](blog/leetcode/Arranging_Coins.md)
-* [Binary Tree Level Order Traversal II](Binary_Tree_Level_Order_Traversal_II.md)
+* [Binary Tree Level Order Traversal II](blog/leetcode/Binary_Tree_Level_Order_Traversal_II.md)
 
 #### Database
 ##### Postgresql
