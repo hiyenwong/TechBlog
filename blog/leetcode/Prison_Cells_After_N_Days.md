@@ -95,6 +95,7 @@ class Solution {
     }
 }
 ```
+### version 2
 ```java
 class Solution {
      public int[] prisonAfterNDays(int[] cells, int N) {
