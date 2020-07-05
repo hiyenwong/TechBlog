@@ -1,13 +1,13 @@
 # spring boot 关于日志
 
-### about color
-## Sample: 
+## about color
+###  Sample: 
 - [logback-spring.xml](https://gist.github.com/hiyenwong/027c33768d61b2e9a7566d15a5a31f6c#file-logback-spring-xml)
 
-## 说明
-### 详情 ： https://logback.qos.ch/manual/layouts.html#coloring
+### 说明
+#### 详情 ： https://logback.qos.ch/manual/layouts.html#coloring
 
-### 注意事项：
+#### 注意事项：
 
 `%black(控制台-) %red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)`
 
