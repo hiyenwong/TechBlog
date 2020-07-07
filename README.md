@@ -14,7 +14,8 @@ I'm a Documentary photographer and Computer nerd.
 * [Binary Tree Level Order Traversal II](blog/leetcode/Binary_Tree_Level_Order_Traversal_II.md)
 * [Prison Cells After N Days](blog/leetcode/Prison_Cells_After_N_Days.md)
 * [Ugly Number II](blog/leetcode/Ugly_Number_II.md)
-
+* [Hamming Distance](blog/leetcode/Hamming_Distance.md)
+* [Plus One](blog/leetcode/Plus_One.md)
 #### Database
 ##### Postgresql
 * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
