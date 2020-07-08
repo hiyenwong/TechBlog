@@ -16,6 +16,7 @@ I'm a Documentary photographer and Computer nerd.
 * [Ugly Number II](blog/leetcode/Ugly_Number_II.md)
 * [Hamming Distance](blog/leetcode/Hamming_Distance.md)
 * [Plus One](blog/leetcode/Plus_One.md)
+* [Island Perimeter](blog/leetcode/Island_Perimeter.md)
 #### Database
 ##### Postgresql
 * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
