@@ -18,6 +18,8 @@ I'm a Documentary photographer and Computer nerd.
 * [Plus One](blog/leetcode/Plus_One.md)
 * [Island Perimeter](blog/leetcode/Island_Perimeter.md)
 * [3Sum](blog/leetcode/3Sum.md)
+* [Maximum Width of Binary Tree](blog/leetcode/Maximum_Width_of_Binary_Tree.md)
+
 #### Database
 ##### Postgresql
 * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
