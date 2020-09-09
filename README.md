@@ -22,12 +22,16 @@ I'm a Documentary photographer and Computer nerd.
 * [Flatten a Multilevel Doubly Linked List](blog/leetcode/Flatten_a_Multilevel_Doubly_Linked_List.md)
 
 #### Database
-##### Postgresql
-* [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
-* [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
+- Postgresql
+    * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
+    * [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
 
+### Search Engine 搜索引擎
+#### 基于[Apache Lucene](https://lucene.apache.org/)
+- [ApacheSolr]
+- [Elasticsearch]
 
 #### devops
-##### OS
-###### Linux
-* [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
+- OS
+    - Linux
+        * [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
