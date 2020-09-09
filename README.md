@@ -19,8 +19,15 @@ I'm a Documentary photographer and Computer nerd.
 * [Island Perimeter](blog/leetcode/Island_Perimeter.md)
 * [3Sum](blog/leetcode/3Sum.md)
 * [Maximum Width of Binary Tree](blog/leetcode/Maximum_Width_of_Binary_Tree.md)
+* [Flatten a Multilevel Doubly Linked List](blog/leetcode/Flatten_a_Multilevel_Doubly_Linked_List.md)
 
 #### Database
 ##### Postgresql
 * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
 * [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
+
+
+#### devops
+##### OS
+###### Linux
+* [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
