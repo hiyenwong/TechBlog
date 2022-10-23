@@ -25,6 +25,8 @@ I'm a Documentary photographer and Computer nerd.
 - Postgresql
     * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
     * [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
+- CDC
+    * [Debezium1.9 单机部署](blog/database/debezuim_standalone.md)
 
 ### Search Engine 搜索引擎
 #### 基于[Apache Lucene](https://lucene.apache.org/)
