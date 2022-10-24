@@ -21,7 +21,7 @@ Output: 16
 ```
 Explanation: The perimeter is the 16 yellow stripes in the image below:
 ```
-![image](https://github.com/hiyenwong/TechBlog/blob/master/blog/images/island.png)
+![image](../images/coding/island.png)
 
 
 # code

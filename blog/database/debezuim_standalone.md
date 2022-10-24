@@ -1,25 +1,28 @@
-# Debezium1.9 单机部署
+# Debezium 部署
+[github仓库地址]()
 
 Debezium 是一个CDC工具，将数据源通过分布式平台将数据库的变化通过的流的方式实时追踪变化。
+## 单机部署
+目前只针对1.9版本。
 
-## Debezium 三种方式
+### Debezium 三种方式
 
-### Debezium
+#### Debezium
 
 通过[Apache Kafka Connect](https://kafka.apache.org/documentation/#connect) 框架，通过插件进行操作.
-![img.png](debezium_architecture_cha0.png)
+![img.png](../images/database/debezium_architecture_cha0.png)
 
 - source connectors 将数据变化计入到kafka
     - mysql 通过binlog
     - postgresql 通过 a logical replication stream
 - sink connectors 则更具kafka topic 记录的操作，推送同步到其他数据库平台(sink的处理flink cdc, spark等等)
 
-### Debezium Server
+#### Debezium Server
 
-![img_1.png](debezium_server_cha1.png)
+![img_1.png](../images/database/debezium_server_cha1.png)
 是一个可以通过REST API 方式进行source database 配置的服务， 输出的平台通常是redis, amazon, plusar, google pub/sub.
 
-### Embedded Engine 内嵌引擎
+#### Embedded Engine 内嵌引擎
 
 将jar添加到你自己的微服务项目中
 
@@ -44,13 +47,13 @@ Debezium 是一个CDC工具，将数据源通过分布式平台将数据库的�
 </dependencies>
 ```
 
-## Example for MS SQL Server
+### Example for MS SQL Server
 
-### 安装配置Zookeeper, Apache Kafka
+#### 安装配置Zookeeper, Apache Kafka
 
-#### 配置 Kafka Connect
+##### 配置 Kafka Connect
 
-##### 安装插件
+###### 安装插件
 
 The connector plug-ins are available from Maven:
 MySQL Connector plugin archive
@@ -89,12 +92,12 @@ database.history.kafka.bootstrap.servers=127.0.0.1:9092
 database.history.kafka.topic=dbhistory.fullfillment
 include.schema.changes=true
 ```
-#### 启动kafka
+##### 启动kafka
 `./bin/kafka-server-start.sh ./config/server.properties`
 `./bin/connect-standalone.sh /data/kafka/config/connect-distributed.properties  /data/kafka/config/其次你需要设置一个connectors的properties.properties`
-### 开启SQL Server的CDC功能
+#### 开启SQL Server的CDC功能
 
-#### Procedure
+##### Procedure
 
 * From the View menu in SQL Server Management Studio, click Template Explorer.
 * In the Template Browser, expand SQL Server Templates.
@@ -133,3 +136,16 @@ SELECT s.name AS Schema_Name, tb.name AS Table_Name , tb.object_id, tb.type, tb.
 ```sql
 SELECT *  FROM sys.change_tracking_databases  WHERE database_id=DB_ID();
 ```
+
+## Docker部署
+[官方事例docker案例](https://github.com/debezium/debezium-examples)
+
+![img.png](../images/database/debezium_kafka_cha2.png)
+
+### 创建PG实例
+```bash docker run — name postgres -p 5000:5432 debezium/postgres```
+### 创建Zookeeper实例
+```bash docker run -it — name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 debezium/zookeeper ```
+### 创建kafka 实例
+```bash docker run -it — name kafka -p 9092:9092 — link zookeeper:zookeeper debezium/kafka```
+

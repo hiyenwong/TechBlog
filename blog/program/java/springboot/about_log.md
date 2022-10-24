@@ -17,4 +17,4 @@
 
 - 同样可以定义一个变量然后直接引用在`标签中`
 
-![image](https://github.com/hiyenwong/TechBlog/blob/master/blog/images/springboot-logback.png)
+![image](../../../images/program/java/springboot/springboot-logback.png)
