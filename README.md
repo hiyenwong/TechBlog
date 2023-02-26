@@ -33,6 +33,10 @@ I'm a Documentary photographer and Computer nerd.
 - [ApacheSolr]
 - [Elasticsearch]
 
+#### Languages
+##### Rust
+- [cargo私有化](blog/rust/private_cargo.md)
+
 #### devops
 - OS
     - Linux
