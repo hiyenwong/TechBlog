@@ -36,7 +36,7 @@ I'm a Documentary photographer and Computer nerd.
 #### Languages
 ##### Rust
 - [cargo私有化](blog/rust/private_cargo.md)
-
+- [测试用例](blog/rust/testing.md)
 #### devops
 - OS
     - Linux
