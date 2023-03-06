@@ -9,7 +9,7 @@
 
 返回生成的矩阵。
 # 解答:
-## 方法一
+## 方法一 rust version
 ```rust
 impl Solution {
     pub fn largest_local(grid: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -36,7 +36,7 @@ impl Solution {
   }
 }
 ```
-## 方法2
+## 方法2 rust version
 ```rust
 impl Solution {
     pub fn largest_local(grid: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
