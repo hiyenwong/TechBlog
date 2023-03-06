@@ -22,7 +22,7 @@ I'm a Documentary photographer and Computer nerd.
 * [Flatten a Multilevel Doubly Linked List](blog/coding/Flatten_a_Multilevel_Doubly_Linked_List.md)
 * [Largest local values in a matrix](blog/coding/largest-local-values-in-a-matrix.md)
 * [median of two sorted arrays](blog/coding/median-of-two-sorted-arrays.md)
-* [minimum delta of make string balance](blog/coding/minimum-delta-of-make-string-balance.md)
+* [minimum delta of make string balance](blog/coding/minimum-deletions-to-make-string-balanced.md)
 
 #### Database
 - Postgresql
