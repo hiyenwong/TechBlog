@@ -23,6 +23,7 @@ I'm a Documentary photographer and Computer nerd.
 * [Largest local values in a matrix](blog/coding/largest-local-values-in-a-matrix.md)
 * [median of two sorted arrays](blog/coding/median-of-two-sorted-arrays.md)
 * [minimum deletions of make string balance](blog/coding/minimum-deletions-to-make-string-balanced.md)
+* [fancy sequence](blog/coding/fancy-sequence.md)
 
 #### Database
 - Postgresql
