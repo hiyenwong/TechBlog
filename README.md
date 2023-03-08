@@ -24,6 +24,7 @@ I'm a Documentary photographer and Computer nerd.
 * [median of two sorted arrays](blog/coding/median-of-two-sorted-arrays.md)
 * [minimum deletions of make string balance](blog/coding/minimum-deletions-to-make-string-balanced.md)
 * [fancy sequence](blog/coding/fancy-sequence.md)
+* [longest substring without repeating characters](blog/coding/longest-substring-without-repeating-characters.md)
 
 #### Database
 - Postgresql
