@@ -20,11 +20,12 @@ I'm a Documentary photographer and Computer nerd.
 * [3Sum](blog/coding/3Sum.md)
 * [Maximum Width of Binary Tree](blog/coding/Maximum_Width_of_Binary_Tree.md)
 * [Flatten a Multilevel Doubly Linked List](blog/coding/Flatten_a_Multilevel_Doubly_Linked_List.md)
-* [Largest local values in a matrix](blog/coding/largest-local-values-in-a-matrix.md)
-* [median of two sorted arrays](blog/coding/median-of-two-sorted-arrays.md)
-* [minimum deletions of make string balance](blog/coding/minimum-deletions-to-make-string-balanced.md)
-* [fancy sequence](blog/coding/fancy-sequence.md)
-* [longest substring without repeating characters](blog/coding/longest-substring-without-repeating-characters.md)
+* [Largest local values in a matrix(Rust)](blog/coding/largest-local-values-in-a-matrix.md)
+* [median of two sorted arrays(Rust)](blog/coding/median-of-two-sorted-arrays.md)
+* [minimum deletions of make string balance(Rust)](blog/coding/minimum-deletions-to-make-string-balanced.md)
+* [fancy sequence(Rust)](blog/coding/fancy-sequence.md)
+* [longest substring without repeating characters(Rust)](blog/coding/longest-substring-without-repeating-characters.md)
+* [longest palindromic substring(Rust)](blog/coding/longest-palindromic-substring.md)
 
 #### Database
 - Postgresql
