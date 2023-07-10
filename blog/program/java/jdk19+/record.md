@@ -7,6 +7,8 @@
 - 自动创建equals
 - 定义class时使用final，无法派生子类；
 
+As of JDK 14, we can replace our repetitious data classes with records. Records are immutable data classes that require only the type and name of fields.
+
 ```java
 /**
  * @author Hi Yen Wong {@code @date} 2023/7/4 22:59
