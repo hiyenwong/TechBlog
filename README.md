@@ -42,6 +42,9 @@ I'm a Documentary photographer and Computer nerd.
 #### Languages
 ##### java
 - [记录类](blog/program/java/jdk19%2B/record.md)
+###### spring boot
+- [将前端打入jar包里](blog/program/java/springboot/20230524_frontend.md)
+- [关于日志](blog/program/java/springboot/about_log.md)
 ##### Rust
 - [cargo私有化](blog/program/rust/private_cargo.md)
 - [测试用例](blog/program/rust/testing.md)
