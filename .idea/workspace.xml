@@ -4,10 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c14ac811-b212-430a-ae89-adf949d00504" name="Changes" comment="testing">
+    <list default="true" id="c14ac811-b212-430a-ae89-adf949d00504" name="Changes" comment="update blog">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/README_20230705235026.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/fancy-sequence_20230307001328.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/fancy-sequence_20230307002226.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/fancy-sequence_20230307002237.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/fancy-sequence_20230307002242.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/fancy-sequence_20230307003827.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/fancy-sequence_20230307004010.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202308.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202341.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202541.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202544.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202611.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202625.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202628.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202639.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202643.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202648.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202654.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202707.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202717.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202724.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202731.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202742.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202748.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202757.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202802.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202806.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202810.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202819.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202823.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/median-of-two-sorted-arrays_20230306202921.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/minimum-deletions-to-make-string-balanced_20230306205545.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/minimum-deletions-to-make-string-balanced_20230306205617.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/minimum-deletions-to-make-string-balanced_20230306205623.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/minimum-deletions-to-make-string-balanced_20230306205627.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/coding/minimum-deletions-to-make-string-balanced_20230306205706.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/program/java/jdk19+/record_20230705231257.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/program/java/jdk19+/record_20230705234844.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/blog/program/java/jdk19+/record_20230705234913.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/program/java/springboot/20230524_frontend.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/program/java/springboot/20230524_frontend.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +116,7 @@
       <workItem from="1677409435978" duration="654000" />
       <workItem from="1677420578516" duration="1908000" />
       <workItem from="1677424520084" duration="846000" />
-      <workItem from="1690019022738" duration="1876000" />
+      <workItem from="1690019022738" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="naming">
       <created>1677409474295</created>
@@ -94,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1677422255865</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update blog">
+      <option name="closed" value="true" />
+      <created>1690031032027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690031032027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="naming" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="update blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="update blog" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
