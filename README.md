@@ -42,6 +42,7 @@ I'm a Documentary photographer and Computer nerd.
 #### Languages
 ##### java
 - [记录类](blog/program/java/jdk19%2B/record.md)
+- [高阶函数](blog/program/java/jdk19+/FunctionAdvance.md)
 ###### spring boot
 - [将前端打入jar包里](blog/program/java/springboot/20230524_frontend.md)
 - [关于日志](blog/program/java/springboot/about_log.md)
