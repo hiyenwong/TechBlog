@@ -33,7 +33,7 @@ public class YourClientClass {
 
 确保在使用RoleServiceComponent时，定义了合适的@AccountRoleClz注解，并根据实际需求进行适当的调整。如果还有其他问题，请随时提问。
 
-首先，定义一个类RoleServiceComponent如下：
+首先，定义一个类RoleServiceComponent,其中AccountRoleClz就是一个Annotation如下：
 
 ```java
 

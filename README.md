@@ -51,6 +51,7 @@ I'm a Documentary photographer and Computer nerd.
 - [将前端打入jar包里](blog/program/java/springboot/20230524_frontend.md)
 - [关于日志](blog/program/java/springboot/about_log.md)
 - [使用注解来匹配不同的类](blog/program/java/springboot/AnnotationClass.md)
+- [关于拦截器](blog/program/java/springboot/Interceptors.md)
 
 ##### Rust
 - [cargo私有化](blog/program/rust/private_cargo.md)
