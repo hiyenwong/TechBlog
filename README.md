@@ -39,12 +39,20 @@ I'm a Documentary photographer and Computer nerd.
 - [ApacheSolr]
 - [Elasticsearch]
 
+### 前端
+#### 中间件 插件
+
+
 #### Languages
 ##### java
 - [记录类](blog/program/java/jdk19%2B/record.md)
+- [高阶函数](blog/program/java/jdk19+/FunctionAdvance.md)
 ###### spring boot
 - [将前端打入jar包里](blog/program/java/springboot/20230524_frontend.md)
 - [关于日志](blog/program/java/springboot/about_log.md)
+- [使用注解来匹配不同的类](blog/program/java/springboot/AnnotationClass.md)
+- [关于拦截器](blog/program/java/springboot/Interceptors.md)
+
 ##### Rust
 - [cargo私有化](blog/program/rust/private_cargo.md)
 - [测试用例](blog/program/rust/testing.md)
