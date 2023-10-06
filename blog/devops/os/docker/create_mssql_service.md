@@ -3,6 +3,7 @@
 ref: https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16&pivots=cs1-bash
 
 ## Pulling image
+ image azure-sql-edge for apple m1 chip
 
 ```bash 
 docker pull mcr.microsoft.com/mssql/server:2022-latest
