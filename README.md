@@ -4,6 +4,8 @@ My name is Hi Yen Wong and from Shanghai of China.
 I'm a Documentary photographer and Computer nerd. 
 
 ### My Notes
+#### AI
+* [token](blog/AI/about_token.ipynb)
 #### LEETCODE
 * [Reconstruct Itinerary](blog/coding/Reconstruct_Itinerary.md)
 * [Perfect Squares](blog/coding/Perfect_Squares.md)
