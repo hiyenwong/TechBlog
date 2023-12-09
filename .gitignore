@@ -1,6 +1,7 @@
 ./history/*
 ./history
-./idea/*
-./idea
+./.idea/*
+./.idea
 ./log
 ./out
+.metals

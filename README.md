@@ -7,6 +7,10 @@ I'm a Documentary photographer and Computer nerd.
 
 ### My Notes
 
+#### AI
+
+* [token](blog/AI/about_token.ipynb)
+
 #### LEETCODE
 
 * [Reconstruct Itinerary](blog/coding/Reconstruct_Itinerary.md)
@@ -77,6 +81,7 @@ I'm a Documentary photographer and Computer nerd.
 
 * OS
   * Linux
-    * [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
-
+        * [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
+* Docker
+  * [MS SQL for Docker](blog/devops/os/docker/create_mssql_service.md)
 [EOF]
