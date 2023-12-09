@@ -75,7 +75,7 @@ I'm a Documentary photographer and Computer nerd.
 
 ##### Python
 
-* [在vscod里写python测试用例](blog/program/python/vscode_python_test.md)
+* [在vscod里写python测试用例](blog/program/python/test_in_python.md)
 
 #### devops
 
