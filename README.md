@@ -1,10 +1,14 @@
 # TechBlog
+
 ## About ME
+
 My name is Hi Yen Wong and from Shanghai of China.
-I'm a Documentary photographer and Computer nerd. 
+I'm a Documentary photographer and Computer nerd.
 
 ### My Notes
+
 #### LEETCODE
+
 * [Reconstruct Itinerary](blog/coding/Reconstruct_Itinerary.md)
 * [Perfect Squares](blog/coding/Perfect_Squares.md)
 * [Two Sum](blog/coding/Two_Sum.md)
@@ -28,35 +32,51 @@ I'm a Documentary photographer and Computer nerd.
 * [longest palindromic substring(Rust)](blog/coding/longest-palindromic-substring.md)
 
 #### Database
-- Postgresql
-    * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
-    * [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
-- CDC
-    * [Debezium1.9 单机部署](blog/database/debezuim_standalone.md)
+
+* Postgresql
+  * [通过外部表的方式连接其他postgresql服务器](blog/database/2020-06-14_pg_fdw_pg.md)
+  * [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
+* CDC
+  * [Debezium1.9 单机部署](blog/database/debezuim_standalone.md)
 
 ### Search Engine 搜索引擎
+
 #### 基于[Apache Lucene](https://lucene.apache.org/)
-- [ApacheSolr]
-- [Elasticsearch]
+
+* [ApacheSolr]
+* [Elasticsearch]
 
 ### 前端
+
 #### 中间件 插件
 
-
 #### Languages
+
 ##### java
-- [记录类](blog/program/java/jdk19%2B/record.md)
-- [高阶函数](blog/program/java/jdk19+/FunctionAdvance.md)
+
+* [记录类](blog/program/java/jdk19%2B/record.md)
+* [高阶函数](blog/program/java/jdk19+/FunctionAdvance.md)
+
 ###### spring boot
-- [将前端打入jar包里](blog/program/java/springboot/20230524_frontend.md)
-- [关于日志](blog/program/java/springboot/about_log.md)
-- [使用注解来匹配不同的类](blog/program/java/springboot/AnnotationClass.md)
-- [关于拦截器](blog/program/java/springboot/Interceptors.md)
+
+* [将前端打入jar包里](blog/program/java/springboot/20230524_frontend.md)
+* [关于日志](blog/program/java/springboot/about_log.md)
+* [使用注解来匹配不同的类](blog/program/java/springboot/AnnotationClass.md)
+* [关于拦截器](blog/program/java/springboot/Interceptors.md)
 
 ##### Rust
-- [cargo私有化](blog/program/rust/private_cargo.md)
-- [测试用例](blog/program/rust/testing.md)
+
+* [cargo私有化](blog/program/rust/private_cargo.md)
+* [测试用例](blog/program/rust/testing.md)
+
+##### Python
+
+* [在vscod里写python测试用例](blog/program/python/vscode_python_test.md)
+
 #### devops
-- OS
-    - Linux
-        * [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
+
+* OS
+  * Linux
+    * [利用systemctl创建自己的Service服务](blog/devops/os/linux/create_own_systemctl_service.md)
+
+[EOF]
