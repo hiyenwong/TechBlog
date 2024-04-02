@@ -63,7 +63,7 @@ conda create --name myenv python=3.6
 conda create --name myenv python=3.6 pip=10.0.1
 ```
 
-conda channel 用法
+### 4. conda channel 用法
 
 conda channel 是conda的扩展，可以用来安装conda包，conda channel 类似于python的pip，可以用来安装python包。
 
@@ -72,5 +72,23 @@ conda channel 主要分为两种：
 - conda-forge：conda-forge是conda官方维护的conda channel，主要用于conda包的发布。
 - bioconda：bioconda是由conda-forge维护的conda channel，主要用于生物信息学相关的包的发布。
 
+conda channel 的使用方法：
+
+```shell
+conda config --add channels conda-forge
+conda config --add channels bioconda
+```
+
+### 5. conda 更改镜像
+
+conda 默认使用清华的镜像，如果需要更换镜像，可以使用以下命令：
+
+```shell
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+```
+
+### 6. mamba
+https://github.com/mamba-org/mamba
 
 [EOF]
