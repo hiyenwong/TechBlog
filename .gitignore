@@ -6,3 +6,4 @@
 ./out
 .metals
 .idea
+.ipynb_checkpoints
