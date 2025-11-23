@@ -42,6 +42,8 @@ I'm a Documentary photographer and Computer nerd.
   * [PostgreSQL 日常使用函数记录](blog/database/pgsql_func.md)
 * CDC
   * [Debezium1.9 单机部署](blog/database/debezuim_standalone.md)
+* Workflow Orchestration
+  * [Apache Airflow 安装配置指南](blog/database/airflow_install.md)
 
 ### Search Engine 搜索引擎
 
