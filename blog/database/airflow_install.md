@@ -9,7 +9,7 @@ pip install "apache-airflow[celery]==3.1.3" --constraint "https://raw.githubuser
 
 pip install apache-airflow-providers-fab
 
-airflow db init
+airflow db init #airflow 3.1.3 好像没有这个命令
 
 airflow db migrate
 ```
@@ -93,3 +93,133 @@ airflow users create \
 ```
 将 `your_password` 替换为你想要设置的管理员密码。
 完成后，你可以使用刚才创建的管理员账户登录 Airflow Web 界面，进行进一步的配置和管理。
+
+## 创建Airflow 启动服务
+
+### 环境变量
+可以通过设置环境变量来配置 Airflow，例如：
+```shell
+# -----------------------------------------------------------------
+# Airflow Environment Configuration
+# -----------------------------------------------------------------
+
+# Airflow 根目录
+AIRFLOW_HOME=/data/airflow
+
+# Airflow Database
+AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://oaadmin:Agyness09&^ESB2AEEE@10.110.91.177:5432/airflow_db
+
+# Conda 环境的 bin 目录 (⚠️请修改为你的实际路径)
+# 你可以通过在 conda 环境下运行 `echo $CONDA_PREFIX/bin` 获取
+AIRFLOW_CONDA_BIN=/home/irsoperator/miniconda3/envs/airflow/bin
+
+# 确保 Path 包含 Conda 环境
+PATH=/home/irsoperator/miniconda3/envs/airflow/bin:/usr/local/bin:/usr/bin:/bin
+```
+
+### Systemd 服务文件
+
+### airflow.target
+```shell
+[Unit]
+Description=Airflow 3.x Composite Service (API + Scheduler + Triggerer)
+# 强依赖：启动 target 时必须启动这些
+Requires=airflow-api-server.service airflow-scheduler.service airflow-triggerer.service
+# 弱依赖：停止 target 时也会尝试停止这些
+Wants=airflow-api-server.service airflow-scheduler.service airflow-triggerer.service
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### airflow-api-server.service
+```shell
+[Unit]
+Description=Airflow API Server Daemon
+After=network.target
+# 属于 airflow.target 组
+PartOf=airflow.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/airflow
+# ⚠️ 修改为你的 Linux 用户名
+User=irsoperator
+Group=irsoperator
+Type=simple
+WorkingDirectory=/data/airflow
+
+# 使用 bash exec 调用 Conda 环境内的 airflow
+ExecStart=/bin/bash -c 'exec ${AIRFLOW_CONDA_BIN}/airflow api-server'
+
+Restart=always
+RestartSec=5s
+PrivateTmp=true
+
+[Install]
+WantedBy=airflow.target
+```
+
+### airflow-scheduler.service
+```shell
+[Unit]
+Description=Airflow Scheduler Daemon
+After=network.target airflow-api-server.service
+# 属于 airflow.target 组
+PartOf=airflow.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/airflow
+# ⚠️ 修改为你的 Linux 用户名
+User=irsoperator
+Group=irsoperator
+Type=simple
+WorkingDirectory=/data/airflow
+
+# 使用 bash exec 调用 Conda 环境内的 airflow
+ExecStart=/bin/bash -c 'exec ${AIRFLOW_CONDA_BIN}/airflow scheduler'
+
+Restart=always
+RestartSec=5s
+PrivateTmp=true
+
+[Install]
+WantedBy=airflow.target
+```
+
+### airflow-triggerer.service
+```shell
+[Unit]
+Description=Airflow Triggerer Daemon
+After=network.target postgresql.service airflow-api-server.service
+# 属于 airflow.target 组
+PartOf=airflow.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/airflow
+# ⚠️ 修改为你的 Linux 用户名
+User=irsoperator
+Group=irsoperator
+Type=simple
+WorkingDirectory=/data/airflow
+
+# 使用 bash exec 调用 Conda 环境内的 airflow
+ExecStart=/bin/bash -c 'exec ${AIRFLOW_CONDA_BIN}/airflow triggerer'
+
+Restart=always
+RestartSec=5s
+PrivateTmp=true
+
+[Install]
+WantedBy=airflow.target
+```
+
+### 启动服务
+创建好以上 systemd 服务文件后，执行以下命令启动 Airflow 服务：
+```shell
+# 重新加载 systemd 配置
+sudo systemctl daemon-reload
+# 启动 Airflow 服务
+sudo systemctl start airflow.target
+# 设置 Airflow 服务开机自启
+sudo systemctl enable airflow.target
+```
